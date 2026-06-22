@@ -1,0 +1,113 @@
+[
+  {
+    "id": "macchine",
+    "label": "Macchine Geyser",
+    "items": [
+      { "id": "451",   "name": "Geyser Pro Dual",      "desc": "2 tanques 5L · 21V 5bar",     "reseller": 1066.20, "public": 1777.00, "packSize": 1, "packOnly": false },
+      { "id": "445",   "name": "Geyser Pro",            "desc": "2 tanques 5L · 21V 5bar",     "reseller":  975.00, "public": 1625.00, "packSize": 1, "packOnly": false },
+      { "id": "466",   "name": "Geyser Pro Lite",       "desc": "1 tanque 5L · 21V 5bar",      "reseller":  705.60, "public": 1176.00, "packSize": 1, "packOnly": false },
+      { "id": "439",   "name": "Geyser E-25 21V",       "desc": "mochila 25L · 21V 5bar",      "reseller":  177.60, "public":  296.00, "packSize": 1, "packOnly": false },
+      { "id": "438",   "name": "Geyser 12L",            "desc": "Li-Ion 5bar",                 "reseller":  162.60, "public":  271.00, "packSize": 1, "packOnly": false },
+      { "id": "437",   "name": "Geyser 4L",             "desc": "Li-Ion 5bar",                 "reseller":  118.50, "public":  197.50, "packSize": 1, "packOnly": false },
+      { "id": "440",   "name": "Geyser Portable 2L",    "desc": "Li-Ion",                      "reseller":   25.32, "public":   42.20, "packSize": 8, "packOnly": false },
+      { "id": "409",   "name": "Geyser Mini 2L",        "desc": "palomas · 2.5bar",            "reseller":   24.15, "public":   40.25, "packSize": 8, "packOnly": false }
+    ]
+  },
+  {
+    "id": "alimentacion",
+    "label": "Alimentación / Batería / Cargador",
+    "items": [
+      { "id": "327",   "name": "Alimentación CA 220V → 21V", "desc": "per Geyser",             "reseller":  77.40, "public": 129.00, "packSize":  6, "packOnly": false },
+      { "id": "328",   "name": "Batería 21V 8Ah",            "desc": "Power",                   "reseller": 121.80, "public": 203.00, "packSize":  6, "packOnly": false },
+      { "id": "325",   "name": "Batería 21V 4Ah",            "desc": "Power",                   "reseller":  70.80, "public": 118.00, "packSize":  6, "packOnly": false },
+      { "id": "312-7", "name": "Batería 21V 2.6Ah",          "desc": "Power",                   "reseller":  44.10, "public":  73.50, "packSize":  6, "packOnly": false },
+      { "id": "312-8", "name": "Cargador doble 21V",         "desc": "",                        "reseller":  16.23, "public":  27.05, "packSize": 12, "packOnly": false }
+    ]
+  },
+  {
+    "id": "tubi",
+    "label": "Tubi",
+    "items": [
+      { "id": "4213", "name": "Tubo nero Ø6mm · 100m",   "desc": "per Geyser",  "reseller": 32.28, "public":  53.80, "packSize": 16, "packOnly": false },
+      { "id": "4223", "name": "Tubo bianco Ø6mm · 100m", "desc": "per Geyser",  "reseller": 35.22, "public":  58.70, "packSize": 16, "packOnly": false },
+      { "id": "4224", "name": "Tubo marrone Ø6mm · 100m","desc": "per Geyser",  "reseller": 34.68, "public":  57.80, "packSize": 16, "packOnly": false },
+      { "id": "4225", "name": "Tubo nero Ø6mm · 25m",    "desc": "per Geyser",  "reseller":  9.69, "public":  16.15, "packSize": 42, "packOnly": false },
+      { "id": "4248", "name": "Tubo nero Ø8mm · 100m",   "desc": "per Geyser",  "reseller": 55.38, "public":  92.30, "packSize":  1, "packOnly": false },
+      { "id": "4271", "name": "Tubo nero Ø8mm · 25m",    "desc": "NEW",         "reseller": 14.49, "public":  24.15, "packSize":  1, "packOnly": false }
+    ]
+  },
+  {
+    "id": "dispersori",
+    "label": "Dispersori / Boquillas",
+    "items": [
+      { "id": "4219", "name": "Boquilla anti-goteo Ø6mm", "desc": "sfuso · conf. 50 pz",  "reseller": 2.01, "public": 3.35, "packSize": 50, "packOnly": true },
+      { "id": "4253", "name": "Boquilla 135° Ø6mm",       "desc": "sfuso · conf. 25 pz",  "reseller": 3.48, "public": 5.80, "packSize": 25, "packOnly": true }
+    ]
+  },
+  {
+    "id": "bastoni",
+    "label": "Bastoni / Postes elevación",
+    "items": [
+      { "id": "4255", "name": "Poste elevación 80cm",  "desc": "ferro · 1.70m tubo + connettore", "reseller": 11.49, "public": 19.15, "packSize": 2, "packOnly": true },
+      { "id": "4256", "name": "Poste elevación 100cm", "desc": "ferro · 1.70m tubo + connettore", "reseller": 12.60, "public": 21.00, "packSize": 2, "packOnly": true },
+      { "id": "4257", "name": "Poste elevación 150cm", "desc": "ferro · 1.70m tubo + connettore", "reseller": 13.80, "public": 23.00, "packSize": 2, "packOnly": true }
+    ]
+  },
+  {
+    "id": "prolunghe",
+    "label": "Prolunghe / Kit direzionamento",
+    "items": [
+      { "id": "4221", "name": "Kit direzionamento 19cm (prolunghe)", "desc": "2 tubi Ø8mm flessibili + connettori",       "reseller": 4.20, "public":  7.00, "packSize": 12, "packOnly": false },
+      { "id": "4263", "name": "Kit direzionamento 50cm",             "desc": "2 tubi Ø8mm flessibili + connettori · NEW", "reseller": 8.97, "public": 14.95, "packSize": 12, "packOnly": false },
+      { "id": "4205", "name": "Barra alargue 40cm Ø6mm",            "desc": "conf. 5 pzs",                               "reseller": 6.93, "public": 11.55, "packSize": 12, "packOnly": false }
+    ]
+  },
+  {
+    "id": "connettori",
+    "label": "Connettori sfusi",
+    "items": [
+      { "id": "4222", "name": "Connettore T Ø6mm",     "desc": "sfuso · conf. 25 pz", "reseller": 0.63, "public": 1.05, "packSize": 25, "packOnly": true },
+      { "id": "4240", "name": "Connettore T Ø8mm",     "desc": "sfuso · conf. 25 pz", "reseller": 0.84, "public": 1.40, "packSize": 25, "packOnly": true },
+      { "id": "4242", "name": "Connettore T Ø6-8-6mm", "desc": "sfuso · conf. 25 pz", "reseller": 0.87, "public": 1.45, "packSize": 25, "packOnly": true },
+      { "id": "4245", "name": "Connettore T Ø8-6-8mm", "desc": "sfuso · conf. 25 pz", "reseller": 0.84, "public": 1.40, "packSize": 25, "packOnly": true },
+      { "id": "4220", "name": "Connettore 90° Ø6mm",   "desc": "sfuso · conf. 25 pz", "reseller": 0.51, "public": 0.85, "packSize": 25, "packOnly": true },
+      { "id": "4239", "name": "Connettore 90° Ø8mm",   "desc": "sfuso · conf. 25 pz", "reseller": 0.57, "public": 0.95, "packSize": 25, "packOnly": true },
+      { "id": "4243", "name": "Connettore 90° Ø6-8mm", "desc": "sfuso · conf. 25 pz", "reseller": 0.69, "public": 1.15, "packSize": 25, "packOnly": true },
+      { "id": "4236", "name": "Connettore retto Ø6mm", "desc": "sfuso · conf. 25 pz", "reseller": 0.57, "public": 0.95, "packSize": 25, "packOnly": true },
+      { "id": "4241", "name": "Connettore retto Ø8mm", "desc": "sfuso · conf. 25 pz", "reseller": 0.54, "public": 0.90, "packSize": 25, "packOnly": true },
+      { "id": "4244", "name": "Connettore retto Ø6-8mm","desc": "sfuso · conf. 25 pz", "reseller": 0.60, "public": 1.00, "packSize": 25, "packOnly": true },
+      { "id": "4218", "name": "Connettore 135° Ø6mm",  "desc": "conf. 5 pz",          "reseller": 6.42, "public": 10.70, "packSize": 12, "packOnly": false },
+      { "id": "4238", "name": "Connettore 135° Ø6mm (sfuso)", "desc": "sfuso · conf. 25 pz", "reseller": 1.14, "public": 1.90, "packSize": 25, "packOnly": true },
+      { "id": "4258", "name": "Valvola ritegno Ø6mm",  "desc": "sfuso · conf. 25 pz", "reseller": 1.83, "public": 3.05, "packSize": 25, "packOnly": true },
+      { "id": "4259", "name": "Valvola ritegno Ø8mm",  "desc": "sfuso · conf. 25 pz", "reseller": 3.99, "public": 6.65, "packSize": 25, "packOnly": true }
+    ]
+  },
+  {
+    "id": "kit",
+    "label": "Kit completi",
+    "items": [
+      { "id": "4264", "name": "Kit Geyser Pro Lite 100m Ø6-8mm", "desc": "NEW",                              "reseller": 103.20, "public": 172.00, "packSize": 6, "packOnly": false },
+      { "id": "4265", "name": "Kit Geyser Pro 150m Ø6-8mm",      "desc": "NEW",                              "reseller": 135.00, "public": 225.00, "packSize": 6, "packOnly": false },
+      { "id": "4266", "name": "Kit Geyser Pro 240m Ø6-8mm",      "desc": "NEW",                              "reseller": 220.20, "public": 367.00, "packSize": 2, "packOnly": false },
+      { "id": "4212", "name": "Kit Balcón 10m Ø6mm",             "desc": "tubo + 3 boquillas + accessori",  "reseller":  10.14, "public":  16.90, "packSize": 8, "packOnly": false },
+      { "id": "4211", "name": "Kit Geyser 25m Ø6mm",             "desc": "25m + 10 boquillas + accessori",  "reseller":  24.42, "public":  40.70, "packSize": 8, "packOnly": false },
+      { "id": "4210", "name": "Kit Geyser 100m Ø6mm",            "desc": "100m + 40 boquillas + accessori", "reseller":  93.00, "public": 155.00, "packSize": 2, "packOnly": false }
+    ]
+  },
+  {
+    "id": "florifens",
+    "label": "Florifens / Insetticidi",
+    "items": [
+      { "id": "45140", "name": "Florifens fragrancia 5L",           "desc": "repellente",                  "reseller":  91.80, "public": 153.00, "packSize":  2, "packOnly": true },
+      { "id": "45139", "name": "Florifens fragrancia 1L",           "desc": "repellente",                  "reseller":  23.13, "public":  38.55, "packSize":  6, "packOnly": true },
+      { "id": "45137", "name": "Florifens Larvicida 50ml",          "desc": "larvicida zanzare",           "reseller":   8.73, "public":  14.55, "packSize": 12, "packOnly": true },
+      { "id": "45132", "name": "Florifens Disuasorio piccioni 250ml","desc": "",                            "reseller":   6.33, "public":  10.55, "packSize": 12, "packOnly": true },
+      { "id": "45131", "name": "Florifens Disuasorio piccioni 1L",  "desc": "",                            "reseller":  20.67, "public":  34.45, "packSize":  6, "packOnly": true },
+      { "id": "45147", "name": "Insetticida concentrato 5L",        "desc": "ONLY ITALY",                  "reseller": 127.80, "public": 213.00, "packSize":  2, "packOnly": false },
+      { "id": "45148", "name": "Insetticida 1L",                    "desc": "ONLY ITALY",                  "reseller":  27.42, "public":  45.70, "packSize": 12, "packOnly": true },
+      { "id": "45149", "name": "Insetticida concentrato 20L",       "desc": "ONLY ITALY",                  "reseller": 210.60, "public": 351.00, "packSize":  1, "packOnly": false },
+      { "id": "45130", "name": "Insetticida 5L",                    "desc": "ONLY ITALY",                  "reseller":  28.11, "public":  46.85, "packSize":  6, "packOnly": true },
+      { "id": "45135", "name": "Insetticida 250ml",                 "desc": "ONLY ITALY",                  "reseller":  10.17, "public":  16.95, "packSize": 12, "packOnly": true }
+    ]
+  }
+]
