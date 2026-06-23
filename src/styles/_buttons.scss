@@ -1,0 +1,74 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: opacity 0.15s, background 0.15s;
+
+  &:hover { opacity: 0.88; }
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+
+  &:hover { background: var(--primary-dk); opacity: 1; }
+}
+
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+
+  &:hover { background: rgba(255, 255, 255, 0.25); opacity: 1; }
+}
+
+.btn-secondary {
+  background: #e8edf5;
+  color: var(--text);
+  border: 1px solid var(--border);
+
+  &:hover { background: #dde4f0; opacity: 1; }
+}
+
+.btn-sm { padding: 4px 10px; font-size: 12px; }
+
+.btn-save {
+  background: #22863a;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 700;
+  transition: background 0.15s;
+
+  &:hover:not(:disabled) { background: #196430; opacity: 1; }
+  &.btn-saving { background: #555; cursor: not-allowed; }
+  &:disabled { opacity: 0.7; }
+}
+
+.save-msg {
+  font-size: 12px;
+  font-weight: 600;
+  color: #afffbe;
+  white-space: nowrap;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.btn-client {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+
+  &:hover { background: rgba(255, 255, 255, 0.25); opacity: 1; }
+}

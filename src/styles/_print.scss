@@ -1,0 +1,42 @@
+@media print {
+  body {
+    min-width: 0;
+    background: #fff;
+    font-size: 11px;
+  }
+
+  .app-body { padding: 0; gap: 12px; max-width: 100%; }
+  .card { box-shadow: none; border: 1px solid #ccc; page-break-inside: avoid; }
+  .card-header { padding: 8px 12px; }
+
+  .mtable th, .mtable td { padding: 4px 6px; }
+  .mtable th { font-size: 9px; }
+
+  .name-input, .desc-input { display: none; }
+
+  .grand-total { border-radius: 4px; padding: 12px 16px; }
+  .gt-value { font-size: 18px; }
+
+  .summary-grid { padding: 10px 12px; }
+  .install-grid { padding: 10px 12px; }
+  .two-col, .one-col { gap: 10px; }
+
+  .print-header {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 12px;
+    border-bottom: 2px solid #1a6fd4;
+    margin-bottom: 12px;
+  }
+
+  .print-title {
+    font-size: 22px;
+    font-weight: 900;
+    color: #1a6fd4;
+    letter-spacing: 1px;
+  }
+
+  .print-meta { font-size: 12px; line-height: 1.8; text-align: right; }
+  .print-notes { padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 11px; }
+}

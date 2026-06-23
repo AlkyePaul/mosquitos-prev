@@ -1,0 +1,102 @@
+@use 'sass:list';
+
+// Section color map: [left-border, anchor-bg, extra-bg, hover-bg]
+$sections: (
+  machine:       (#1a6fd4, #f4f7fd, #f9fbff, #e6edf8),
+  tube:          (#1a7a3a, #f2f7f3, #f6fbf7, #e4f0e6),
+  boquilla_std:  (#c87800, #fdf9f0, #fefcf6, #faf0d8),
+  boquilla_spec: (#b84a00, #fdf6f2, #fefaf8, #fae8dc),
+  liquid:        (#7c3fa0, #f8f2fd, #fcf8fe, #f0e4fa),
+);
+
+@each $name, $vals in $sections {
+  $border-color: list.nth($vals, 1);
+  $anchor-bg:    list.nth($vals, 2);
+  $extra-bg:     list.nth($vals, 3);
+  $hover-bg:     list.nth($vals, 4);
+
+  .section-#{$name} {
+    td:first-child { box-shadow: inset 3px 0 0 #{$border-color}; }
+    td             { background: $anchor-bg; }
+
+    &.section-extra td { background: $extra-bg; }
+    &:hover td         { background: $hover-bg; }
+  }
+}
+
+// Preset badge chip
+.preset-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  align-self: flex-start;
+}
+
+// Section-extra indent tag (└)
+.section-extra-tag {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 1px;
+  line-height: 1;
+  align-self: flex-start;
+}
+
+// Product cell wrap
+.product-cell-wrap { display: flex; flex-direction: column; gap: 2px; }
+
+// Tube helper
+.tube-helper { display: flex; align-items: center; gap: 5px; margin-top: 3px; }
+.tube-m-input { width: 90px !important; }
+.tube-m-unit  { font-size: 12px; color: var(--text-muted); }
+.tube-calc {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a7a3a;
+  background: #e4f0e6;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+// Section add-button row
+.section-add-row td { padding: 0; border-bottom: 1px solid var(--border-lt); }
+
+.section-add-btn {
+  display: block;
+  width: 100%;
+  padding: 4px 14px;
+  border: none;
+  border-top: 1px dashed;
+  background: transparent;
+  cursor: pointer;
+  font-size: 11px;
+  text-align: left;
+  letter-spacing: 0.2px;
+  transition: background 0.12s;
+
+  &:hover { background: rgba(0, 0, 0, 0.03); }
+}
+
+// General extras divider
+.extra-divider-row td { padding: 0; }
+
+.extra-divider-cell {
+  padding: 5px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-muted);
+  background: #edeef2;
+  border-top: 2px solid var(--border);
+}
+
+// Print helpers for product rows
+.print-prod-name   { font-size: 12px; }
+.print-preset-label { font-weight: 700; }

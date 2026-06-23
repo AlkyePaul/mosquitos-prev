@@ -1,0 +1,131 @@
+.table-scroll { overflow-x: auto; }
+
+.mtable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+
+  th {
+    padding: 8px 10px;
+    text-align: left;
+    background: #f5f6f8;
+    border-bottom: 2px solid var(--border);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 5px 6px;
+    border-bottom: 1px solid var(--border-lt);
+    vertical-align: middle;
+  }
+}
+
+.tr-even { background: #fff; }
+.tr-odd  { background: #fafbfc; }
+
+.tr-even:hover,
+.tr-odd:hover { background: var(--primary-lt); }
+
+// Column widths
+.th-product { min-width: 220px; }
+.th-desc    { min-width: 110px; }
+.th-price   { width: 100px; }
+.th-qty     { width: 80px; }
+.th-pack    { width: 60px; text-align: center; }
+.th-comp    { width: 105px; text-align: right; }
+.th-del     { width: 36px; text-align: center; }
+
+// Computed cells
+.cost-cell   { color: var(--text-muted); font-family: 'Courier New', monospace; font-size: 13px; }
+.client-cell { font-weight: 600; font-family: 'Courier New', monospace; font-size: 13px; }
+.vat-cell    { color: var(--text-muted); font-family: 'Courier New', monospace; font-size: 12px; }
+
+// Inline inputs
+.name-input {
+  width: 100%;
+  margin-top: 3px;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: transparent;
+
+  &:focus { outline: none; border-color: var(--border); background: #fff; }
+}
+
+.desc-input {
+  width: 100%;
+  padding: 4px 6px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: transparent;
+
+  &:focus { outline: none; border-color: var(--border); background: #fff; }
+}
+
+.num-input {
+  width: 100%;
+  padding: 4px 6px;
+  text-align: right;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 13px;
+  background: #fff;
+
+  &:focus { outline: none; border-color: var(--primary); }
+}
+
+.warn-input {
+  border-color: var(--orange) !important;
+  background: var(--orange-lt) !important;
+}
+
+.qty-cell { position: relative; display: flex; align-items: center; gap: 4px; }
+.qty-input { max-width: 60px; }
+.warn-badge { color: var(--orange); font-size: 14px; cursor: help; }
+
+.pack-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  background: #eef0f3;
+  color: var(--text-muted);
+}
+.pack-required { background: var(--orange-lt); color: var(--orange); }
+
+.del-btn {
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover { background: var(--red-lt); color: var(--red); }
+}
+
+.empty-msg { padding: 32px 16px; text-align: center; color: var(--text-muted); font-size: 14px; }
+
+// Subtotal row
+.subtotal-row td { border-top: 2px solid var(--border); background: #f5f6f8; }
+.subtotal-cell { font-weight: 700; font-family: 'Courier New', monospace; }
+.foot-cost   { color: var(--text-muted); }
+.foot-client { color: var(--text); }
+.foot-vat    { color: var(--text-muted); }

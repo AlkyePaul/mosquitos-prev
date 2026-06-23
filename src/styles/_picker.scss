@@ -1,0 +1,80 @@
+.picker { position: relative; }
+
+.picker-btn {
+  width: 100%;
+  padding: 5px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text);
+  text-align: left;
+  transition: border-color 0.15s;
+  gap: 6px;
+
+  &:hover { border-color: var(--primary); }
+}
+
+.picker-btn-text { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.picker-arrow { font-size: 10px; color: var(--text-muted); flex-shrink: 0; }
+
+.picker-dropdown {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 2px);
+  z-index: 200;
+  width: 380px;
+  max-width: 90vw;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+}
+
+.picker-search {
+  width: 100%;
+  padding: 9px 12px;
+  border: none;
+  border-bottom: 1px solid var(--border-lt);
+  font-size: 13px;
+  outline: none;
+  background: #f9fafb;
+}
+
+.picker-list { max-height: 340px; overflow-y: auto; }
+
+.picker-group-label {
+  padding: 6px 12px 3px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--primary);
+  background: var(--primary-lt);
+  position: sticky;
+  top: 0;
+}
+
+.picker-item {
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  transition: background 0.1s;
+
+  &:hover { background: var(--primary-lt); }
+}
+
+.picker-item-active { background: var(--primary-lt); font-weight: 600; }
+.picker-custom { color: var(--text-muted); font-style: italic; border-bottom: 1px solid var(--border-lt); }
+.picker-item-name { flex: 1; }
+.picker-item-prices { font-size: 11px; color: var(--text-muted); white-space: nowrap; font-family: 'Courier New', monospace; }
+.picker-empty { padding: 24px; text-align: center; color: var(--text-muted); font-size: 13px; }

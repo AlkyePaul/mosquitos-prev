@@ -1,0 +1,13 @@
+.grand-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(26, 111, 212, 0.3);
+}
+
+.gt-label { font-size: 14px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; }
+.gt-value { font-size: 26px; font-weight: 800; font-family: 'Courier New', monospace; }
